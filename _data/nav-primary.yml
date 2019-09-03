@@ -1,0 +1,39 @@
+nav:
+  - title: Why Chartio
+    link: #
+    dropdown: true
+    subnav: 
+      - title: Why Chartio?
+        link: #
+      - title: Success Stories
+        link: #
+      - title: Reviews
+        link: #
+      - title: Data Heroes
+        link: #
+  - title: Pricing
+    link: #
+  - title: Customers
+    link: #
+    dropdown: true
+    subnav: 
+      - title: Why Chartio?1
+        link: #
+      - title: Success Stories1
+        link: #
+      - title: Reviews1
+        link: #
+      - title: Data Heroes1
+        link: #
+  - title: Blog
+    link: #
+    dropdown: true
+    subnav: 
+      - title: Why Chartio?2
+        link: #
+      - title: Success Stories2
+        link: #
+      - title: Reviews2
+        link: #
+      - title: Data Heroes2
+        link: #
