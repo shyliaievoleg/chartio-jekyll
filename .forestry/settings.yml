@@ -17,6 +17,9 @@ sections:
   label: Social Links
   create: all
   match: "**/*"
+- type: document
+  path: data/policy-links.yml
+  label: Policy Links
 upload_dir: assets/images
 public_path: "/images"
 front_matter_path: ''
