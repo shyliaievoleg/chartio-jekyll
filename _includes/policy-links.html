@@ -1,4 +1,5 @@
 <p class="policy-links">
-    <a href="#" class="policy-link">Terms of Service</a>
-    <a href="#" class="policy-link">Privacy Policy</a>
+    {% for item in site.data.policy-links %}
+        <a href="{{ item.link }}" class="policy-link">{{ item.title }}</a>
+    {% endfor %}
 </p>
