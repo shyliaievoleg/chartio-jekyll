@@ -18,7 +18,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: data/policy-links.yml
+  path: _data/policy-links.yml
   label: Policy Links
 upload_dir: assets/images
 public_path: "/images"
