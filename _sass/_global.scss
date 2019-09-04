@@ -214,13 +214,18 @@ body {
 }
 
 .logo {
-    margin: 5px 0 0;
+    margin: 5px 0 0 -13px;
+
+    img {
+        width: 150px;
+    }
 
     &--footer {
+        margin: 5px 0 0 -9x;
         width: 25%;
 
         img {
-            width: 100px;
+            width: 110px;
         }
     }
 }
