@@ -8,6 +8,11 @@ sections:
   label: Pages
   create: all
 - type: directory
+  path: _home_sections
+  label: Home Sections
+  create: all
+  match: "**/*"
+- type: directory
   path: _data
   label: Data
   create: all
