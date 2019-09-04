@@ -1,5 +1,7 @@
 <p class="social-links">
     {% for item in site.social-links %}
-        <a href="{{ item.link }}" class="social-link" title="{{ item.title }}"><i class="fa fa-{{ item.class }}" aria-hidden="true"></i></a>
+        <a href="{{ item.link }}" class="social-link" title="{{ item.title }}">
+            <i class="fa fa-{{ item.class }}" aria-hidden="true"></i>
+        </a>
     {% endfor %}
 </p>

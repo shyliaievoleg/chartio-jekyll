@@ -1,0 +1,68 @@
+col:
+  - title: Why Chartio
+    nav:
+      - title: Data Sources
+        link: #
+      - title: Visual SQL
+        link: #
+      - title: Data Sharing
+        link: #
+      - title: Data Stack
+        link: #
+      - title: Data Advisors
+        link: #
+      - title: Security
+        link: #
+      - title: Pricing
+        link: #
+  - title: Help Center
+    nav:
+      - title: Docs
+        link: #
+      - title: Getting Started
+        link: #
+      - title: FAQs
+        link: #
+      - title: Feature Releases
+        link: #
+      - title: Office Hours
+        link: #
+  - title: Blog
+    nav:
+      - title: Company News & Events
+        link: #
+      - title: Product Updates
+        link: #
+      - title: Thought Leadership
+        link: #
+      - title: Guides
+        link: #
+      - title: Tutorials
+        link: #
+      - title: Off the Charts
+        link: #
+  - title: About Us
+    nav:
+      - title: Team & values
+        link: #
+      - title: Careers
+        link: #
+      - title: Partners
+        link: #
+      - title: Data School
+        link: #
+      - title: Brand Kit
+        link: #
+  - title: Customers
+    nav:
+      - title: Success Stories
+        link: #
+      - title: Customer Reviews
+        link: #
+      - title: Data Heroes
+        link: #
+    certificate:
+      - title: AICPA
+        path: assets/images/certificate-aicpa.png
+      - title: SOC 2
+        path: assets/images/certificate-soc2.png

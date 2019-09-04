@@ -1,5 +1,5 @@
 <div class="footer-btns">
-    <a href="#" class="footer-btn">222 Kearny St #525 SF, CA 94108</a>
-    <a href="#" class="footer-btn">HELLO@CHARTIO.COM</a>
-    <a href="#" class="footer-btn">GET A DEMO</a>
+    {% for item in site.data.footer-btns limit:3 %}
+        <a href="{{ item.link }}" class="footer-btn">{{ item.title }}</a>
+    {% endfor %}
 </div>
