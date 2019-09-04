@@ -1,5 +1,5 @@
 ---
 class: twitter
 title: Twitter
-url: #
+link: #
 ---

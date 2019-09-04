@@ -1,5 +1,5 @@
 ---
 class: linkedin
 title: LinkedIn
-url: #
+link: #
 ---
