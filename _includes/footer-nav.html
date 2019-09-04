@@ -8,11 +8,7 @@
                 {% endfor %}
             </ul>
             {% if col.title == 'Customers'%}
-                <div class="certificates">
-                    {% for item in col.certificate %}
-                        <img src="{{ item.path }}" alt="{{ item.title }}">
-                    {% endfor %}
-                </div>
+                {% include certificates.html %}
             {% endif %}
         </div>
     {% endfor %}
