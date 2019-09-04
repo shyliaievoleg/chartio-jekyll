@@ -1,2 +1,9 @@
 name: Chartio
 title: Chartio
+collections:
+  social-links:
+    order:
+      - linkedin.md
+      - twitter.md
+      - facebook.md
+      - youtube.md
