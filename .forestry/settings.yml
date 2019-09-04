@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/policy-links.yml
   label: Policy Links
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
