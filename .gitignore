@@ -1,0 +1,8 @@
+_site/
+# ignore composer vendor directory
+/vendor
+.bundle/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
