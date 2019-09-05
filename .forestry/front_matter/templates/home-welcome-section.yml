@@ -1,5 +1,5 @@
 ---
-label: 'home welcome section '
+label: home welcome
 hide_body: true
 fields:
 - name: title
