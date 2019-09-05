@@ -18,5 +18,3 @@ fields:
       format: markdown
   label: Tagline
   description: Some inspiring text goes here
-pages:
-- _home-sections/welcome.yml

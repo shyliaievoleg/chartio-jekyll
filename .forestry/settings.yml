@@ -18,7 +18,7 @@ sections:
 - type: heading
   label: Home Sections
 - type: document
-  path: _home-sections/welcome.yml
+  path: _data/home/welcome.yml
   label: Welcome
 - type: heading
   label: Other
