@@ -6,4 +6,10 @@ training_cards:
     your data
 - icon: assets/images/icon-training1.svg
   description: Live Trainings Customized Specifically to You and Your Data
-training_table: []
+training_table:
+- title: Planning
+  content: |-
+    * Project Kick-off Meeting
+    * Project Work Plan
+    * Team Organization
+    * V1 Scope
