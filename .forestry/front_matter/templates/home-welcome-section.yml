@@ -19,8 +19,3 @@ fields:
     config:
       min: 
       max: 
-- name: name
-  type: text
-  config:
-    required: false
-  label: name
