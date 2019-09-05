@@ -1,0 +1,10 @@
+---
+label: what we do
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: tagline
+  label: tagline
