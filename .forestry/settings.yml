@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: Navigations
+- type: document
+  path: _data/footer-nav.yml
+  label: Footer Nav
+  match: "**/*"
 - type: heading
   label: Home Sections
 - type: document
