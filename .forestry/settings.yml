@@ -9,7 +9,6 @@ sections:
 - type: document
   path: _data/footer-nav.yml
   label: Footer Nav
-  match: "**/*"
 - type: heading
   label: Home Sections
 - type: document
