@@ -7,6 +7,14 @@ training_cards:
 - icon: assets/images/icon-training1.svg
   description: Live Trainings Customized Specifically to You and Your Data
 training_table:
+- title: Iteration
+  content: |-
+    * V3 Reporting Scoping and Training
+    * QA of Data Pipeline
+
+    ***
+
+    * Ongoing Consultations and Best Practice Sharing
 - title: Deploy & Training
   content: |-
     * Implement V2 of Reports
