@@ -1,29 +1,22 @@
 ---
 service_section:
-- service:
-    title: Data Modeling
-    description: |-
-      Recommend the best ways to model and control your data based on the unique requirements of your organization
+- title: Data Migration
+  description: |-
+    Share insights on how to build your data stack and advise on data stack architecture and partner connections
 
-       Provide tools to enable quick modeling directly on your data warehouse for better access and performance of your data analytics platform and applications
-    icon: assets/images/icon1.svg
+    Perform bulk actions for your organization for permission controls, chart and dashboard cloning, and data source swaps
+  icon: assets/images/icon2.svg
   testimonial:
     text: Chartio’s Data Advisor team was instrumental in helping us model data for
       our immediate needs and also begin future planning. An invaluable resource to
       be able to call at any time.
     logo: assets/images/testimonials.svg
-  title: Data Modeling
+- title: Data Modeling
   description: |-
     Recommend the best ways to model and control your data based on the unique requirements of your organization
 
-     Provide tools to enable quick modeling directly on your data warehouse for better access and performance of your data analytics platform and applications
+    Provide tools to enable quick modeling directly on your data warehouse for better access and performance of your data analytics platform and applications
   icon: assets/images/icon1.svg
-- title: Data Migration
-  description: |-
-    Share insights on how to build your data stack and advise on data stack architecture and partner connections
-
-     Perform bulk actions for your organization for permission controls, chart and dashboard cloning, and data source swaps
-  icon: assets/images/icon2.svg
   testimonial:
     text: Chartio’s Data Advisor team was instrumental in helping us model data for
       our immediate needs and also begin future planning. An invaluable resource to
