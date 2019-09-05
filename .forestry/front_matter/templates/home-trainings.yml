@@ -102,16 +102,6 @@ fields:
       config:
         required: false
       label: Text
-    - name: position
-      type: number
-      label: position
-      description: ''
-      default: 0
-      required: true
-      config:
-        min: 
-        max: 
-        step: 
     label: Ongoing
   label: Timeline
 pages:
