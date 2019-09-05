@@ -1,90 +1,38 @@
 {% assign training = site.data.home.training %}
+{% assign timeline = site.data.home.training.timeline %}
 
 <div class="page-section training">
     <div class="container">
-        <h2 class="page-section__title">Personalized Onboarding and Training</h2>
+        <h2 class="page-section__title">{{ training.title }}</h2>
         <div class="cols2">
-            <div class="col content-item content-item--with-border">
-                <div class="content-item__image">
-                    <img class="content-item__image-element" src="assets/images/icon-training1.svg" alt="Live Trainings Customized Specifically to You and Your Data">
+            {% for card in training.training_cards %}
+                <div class="col content-item content-item--with-border">
+                    <div class="content-item__image">
+                        <img class="content-item__image-element" src="{{ card.icon }}" alt="Live Trainings Customized Specifically to You and Your Data">
+                    </div>
+                    <div class="content-item__text">
+                        <p>{{ card.description }}</p>
+                    </div>
                 </div>
-                <div class="content-item__text">
-                    <p>
-                        Live Trainings Customized Specifically to You and Your Data
-                    </p>
-                </div>
-            </div>
-            <div class="col content-item content-item--with-border">
-                <div class="content-item__image">
-                    <img class="content-item__image-element" src="assets/images/icon-training2.svg" alt="Advanced topics, data governance trainings, 1:1 working sessions on your data">
-                </div>
-                <div class="content-item__text">
-                    <p>
-                        Advanced topics, data governance trainings, 1:1 working sessions on your data
-                    </p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
         <div class="training__table">
             <div class="cols4">
-                <div class="col content-box">
-                    <div class="content-box__title">
-                        <h3 class="content-box__title-element">Planning</h3>
+                {% for col in training.training_table limit: 4 %}
+                    <div class="col content-box">
+                        <div class="content-box__title">
+                            <h3 class="content-box__title-element">{{ col.title }}</h3>
+                        </div>
+                        <div class="content-box__text">
+                            {{ col.content | markdownify }}
+                        </div>
                     </div>
-                    <div class="content-box__text">
-                        <ul>
-                            <li>Project Kick-off Meeting</li>
-                            <li>Project Work Plan</li>
-                            <li>Team Organization</li>
-                            <li>V1 Scope</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col content-box">
-                    <div class="content-box__title">
-                        <h3 class="content-box__title-element">Setup</h3>
-                    </div>
-                    <div class="content-box__text">
-                        <ul>
-                            <li>V1 Charts Setup for Primary Use Cases and Best Practices</li>
-                            <li>V1 Product Training</li>
-                            <li>V2 Spec Reporting Requirements</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col content-box">
-                    <div class="content-box__title">
-                        <h3 class="content-box__title-element">Deploy & Training</h3>
-                    </div>
-                    <div class="content-box__text">
-                        <ul>
-                            <li>Implement V2 of Reports</li>
-                            <li>Deep-dive Training</li>
-                            <li>Implementation Sign-off</li>
-                            <li>Customer Satisfaction QA Checkpoint of Data Pipeline</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col content-box">
-                    <div class="content-box__title">
-                        <h3 class="content-box__title-element">Iteration</h3>
-                    </div>
-                    <div class="content-box__text">
-                        <ul>
-                            <li>V3 Reporting Scoping and Training</li>
-                            <li>QA of Data Pipeline</li>
-                        </ul>
-                        <hr>
-                        <ul>
-                            <li>Ongoing Consultations and Best Practice Sharing</li>
-                        </ul>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
             <div class="timeline">
-                <span class="timeline__item timeline__item--days">1-3 days</span>
-                <span class="timeline__item timeline__item--weeks">1-3 weeks</span>
-                <span class="timeline__item timeline__item--ongoing">Ongoing</span>
+                <span class="timeline__item timeline__item--days" style="border-color: {{ timeline.days.border_color }}">{{ timeline.days.text }}</span>
+                <span class="timeline__item timeline__item--weeks" style="border-color: {{ timeline.weeks.border_color }}">{{ timeline.weeks.text }}</span>
+                <span class="timeline__item timeline__item--ongoing" style="border-color: {{ timeline.ongoing.border_color }}">{{ timeline.ongoing.text }}</span>
             </div>
         </div>
     </div>
