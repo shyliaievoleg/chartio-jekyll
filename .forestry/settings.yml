@@ -29,7 +29,6 @@ sections:
 - type: document
   path: _data/home/training.yml
   label: Onboarding and Training
-  match: "**/*"
 - type: heading
   label: Other
 - type: jekyll-pages
