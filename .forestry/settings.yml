@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/home/training.yml
+  label: Onboarding and Training
+  match: "**/*"
 - type: heading
   label: Navigations
 - type: document
