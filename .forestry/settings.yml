@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Navigations
 - type: document
+  path: _data/nav-primary.yml
+  label: Header Primary Nav
+  match: "**/*"
+- type: document
   path: _data/footer-nav.yml
   label: Footer Nav
 - type: heading
