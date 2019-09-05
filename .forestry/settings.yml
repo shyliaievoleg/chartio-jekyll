@@ -23,6 +23,10 @@ sections:
 - type: document
   path: _data/home/what-we-do.yml
   label: What can we do for you?
+- type: document
+  path: _data/home/services.yml
+  label: Services
+  match: "**/*"
 - type: heading
   label: Other
 - type: jekyll-pages
