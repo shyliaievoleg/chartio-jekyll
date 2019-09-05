@@ -1,10 +1,9 @@
 ---
-label: what we do
-hide_body: true
+label: home what we do
+hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: textarea
-  name: tagline
-  label: tagline
+- name: section_title
+  type: text
+  config:
+    required: false
+  label: Section Title
