@@ -9,6 +9,9 @@ sections:
 - type: document
   path: _data/nav-primary.yml
   label: Header Primary Nav
+- type: document
+  path: _data/secondary-nav.yml
+  label: Header Secondary Nav
   match: "**/*"
 - type: document
   path: _data/footer-nav.yml
