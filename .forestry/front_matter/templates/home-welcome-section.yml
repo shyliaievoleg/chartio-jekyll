@@ -12,6 +12,13 @@ fields:
   - type: textarea
     name: tagline
     label: tagline
+  - name: blocks
+    type: blocks
+    label: Blocks
+    template_types: []
+    config:
+      min: 
+      max: 
 - name: name
   type: text
   config:
