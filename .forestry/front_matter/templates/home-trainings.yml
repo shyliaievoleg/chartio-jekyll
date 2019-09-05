@@ -64,7 +64,7 @@ fields:
       label: Border Color
       config:
         required: false
-        color_format: RGB
+        color_format: Hex
     - name: text
       type: text
       config:
