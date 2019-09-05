@@ -1,4 +1,55 @@
 ---
 label: home services
 hide_body: true
-fields: []
+fields:
+- name: service_section
+  type: field_group_list
+  fields:
+  - name: service
+    type: field_group
+    config: {}
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    - name: icon
+      type: file
+      config:
+        maxSize: 250
+      label: Icon
+    label: Service
+  - name: testimonial
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Text
+    - name: logo
+      type: file
+      config:
+        maxSize: 250
+      label: Logo
+    label: Testimonial
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Service Section
