@@ -12,3 +12,9 @@ service_section:
       our immediate needs and also begin future planning. An invaluable resource to
       be able to call at any time.
     logo: assets/images/testimonials.svg
+  title: Data Modeling
+  description: |-
+    Recommend the best ways to model and control your data based on the unique requirements of your organization
+
+     Provide tools to enable quick modeling directly on your data warehouse for better access and performance of your data analytics platform and applications
+  icon: assets/images/icon1.svg
