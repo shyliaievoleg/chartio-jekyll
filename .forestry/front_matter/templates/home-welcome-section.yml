@@ -2,20 +2,19 @@
 label: 'home welcome section '
 hide_body: true
 fields:
-- type: field_group_list
-  name: Welcome
-  label: Welcome
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: tagline
-    label: tagline
-  - name: blocks
-    type: blocks
-    label: Blocks
-    template_types: []
-    config:
-      min: 
-      max: 
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Section title goes here
+- name: tagline
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Tagline
+  description: Some inspiring text goes here
