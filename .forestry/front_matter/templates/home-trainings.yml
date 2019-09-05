@@ -51,5 +51,26 @@ fields:
     max: 
     labelField: 
   label: Training Table
+- name: timeline
+  type: field_group
+  config: {}
+  fields:
+  - name: days
+    type: field_group
+    config: {}
+    fields:
+    - name: border_color
+      type: color
+      label: Border Color
+      config:
+        required: false
+        color_format: Hex
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    label: Days
+  label: Timeline
 pages:
 - _data/home/training.yml
