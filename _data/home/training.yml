@@ -7,6 +7,12 @@ training_cards:
 - icon: assets/images/icon-training1.svg
   description: Live Trainings Customized Specifically to You and Your Data
 training_table:
+- title: Deploy & Training
+  content: |-
+    * Implement V2 of Reports
+    * Deep-dive Training
+    * Implementation Sign-off
+    * Customer Satisfaction QA Checkpoint of Data Pipeline
 - title: Setup
   content: |-
     * V1 Charts Setup for Primary Use Cases and Best Practices
