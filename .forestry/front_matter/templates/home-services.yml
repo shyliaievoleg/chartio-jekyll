@@ -19,9 +19,9 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: icon_left
+  - name: icon_right
     type: boolean
-    label: Icon Left
+    label: Icon Right
   - name: icon
     type: file
     config:
