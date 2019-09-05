@@ -19,14 +19,14 @@ fields:
       schema:
         format: markdown
     label: Description
+  - name: icon_left
+    type: boolean
+    label: Icon Left
   - name: icon
     type: file
     config:
       maxSize: 250
     label: Icon
-  - name: icon_position
-    type: boolean
-    label: Icon Position
   - name: testimonial
     type: field_group
     config: {}
