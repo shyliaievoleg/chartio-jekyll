@@ -1,5 +1,16 @@
 ---
 service_section:
+- title: Data Migration
+  description: |-
+    Share insights on how to build your data stack and advise on data stack architecture and partner connections
+
+     Perform bulk actions for your organization for permission controls, chart and dashboard cloning, and data source swaps
+  icon: assets/images/icon2.svg
+  testimonial:
+    text: Chartio’s Data Advisor team was instrumental in helping us model data for
+      our immediate needs and also begin future planning. An invaluable resource to
+      be able to call at any time.
+    logo: assets/images/testimonials.svg
 - service:
     title: Data Modeling
     description: |-
