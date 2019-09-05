@@ -1,5 +1,19 @@
 ---
 service_section:
+- title: Data Governance
+  description: |-
+    Assess and recommend best practices for setting up appropriate controls and access to scale by taking advantage of the full Chartio functionality
+
+    Configure and help implement workflows based on our enterprise
+
+     permissioning API
+  icon_right: true
+  icon: assets/images/icon3.svg
+  testimonial:
+    text: Chartio’s Data Advisor team was instrumental in helping us model data for
+      our immediate needs and also begin future planning. An invaluable resource to
+      be able to call at any time.
+    logo: ''
 - title: Data Modeling
   description: |-
     Recommend the best ways to model and control your data based on the unique requirements of your organization
