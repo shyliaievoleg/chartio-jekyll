@@ -1,20 +1,15 @@
-{% assign services = site.data.home.services %}
+{% assign services = site.data.home.services.service_section %}
 
 <div class="page-section">
     <div class="container">
         {% for service in services %}
             <div class="content-item content-item--image-right">
                 <div class="content-item__image">
-                    <img class="content-item__image-element" src="assets/images/icon1.svg" alt="Recommend the best ways">
+                    <img class="content-item__image-element" src="{{ service.icon }}" alt="{{ service.title }}">
                 </div>
                 <div class="content-item__text">
-                    <h2>Data Modeling</h2>
-                    <p>
-                        Recommend the best ways to model and control your data based on the unique requirements of your organization
-                    </p>
-                    <p>
-                        Provide tools to enable quick modeling directly on your data warehouse for better access and performance of your data analytics platform and applications
-                    </p>
+                    <h2>{{ service.title }}</h2>
+                    {{ service.description | markdownify }}
                 </div>
             </div>
             <div class="testimonial-item">

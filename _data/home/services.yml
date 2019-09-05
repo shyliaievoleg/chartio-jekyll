@@ -11,7 +11,6 @@ service_section:
       our immediate needs and also begin future planning. An invaluable resource to
       be able to call at any time.
     logo: assets/images/testimonials.svg
-  icon_left: false
   icon_right: true
 - title: Data Migration
   description: |-
@@ -24,5 +23,4 @@ service_section:
       our immediate needs and also begin future planning. An invaluable resource to
       be able to call at any time.
     logo: assets/images/testimonials.svg
-  icon_left: true
   icon_right: false
