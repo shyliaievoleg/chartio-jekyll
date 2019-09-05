@@ -12,3 +12,8 @@ fields:
   - type: textarea
     name: tagline
     label: tagline
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
