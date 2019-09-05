@@ -5,7 +5,10 @@ fields:
 - name: home_sections
   type: blocks
   label: home sections
-  template_types: []
+  template_types:
+  - home-welcome-section
+  - what-we-do
+  - home-services
   config:
     min: 
     max: 
