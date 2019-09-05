@@ -1,4 +1,19 @@
 ---
 label: homepage
 hide_body: true
-fields: []
+fields:
+- name: welcome
+  type: include
+  config: {}
+  template: home-welcome-section
+  label: welcome
+- name: what_we_do
+  type: include
+  config: {}
+  template: what-we-do
+  label: what we do
+- name: services
+  type: include
+  config: {}
+  template: home-services
+  label: services
