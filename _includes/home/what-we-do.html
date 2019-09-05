@@ -7,11 +7,10 @@
             {{ section.section_content | markdownify }}
         </div>
         <div class="what-we-do__image">
-            <img class="what-we-do__image-element" src="{{ section.section_image.image }}" alt="{{ section.section_image.image_caption }}">
+            <img class="what-we-do__image-element" src="{{ section.section_image.image }}" alt="{{ section.section_image.image_text_name }}">
             <div class="what-we-do__image-caption">
-                {{ section.section_image.image_caption | markdownify }}
-                <strong>Tim Miller</strong>
-                <span>ST Data Advisor</span>
+                <strong>{{ section.section_image.image_text_name }}</strong>
+                <span>{{ section.section_image.image_text_position }}</span>
             </div>
         </div>
     </div>
