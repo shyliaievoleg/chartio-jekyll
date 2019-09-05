@@ -12,6 +12,7 @@ service_section:
       be able to call at any time.
     logo: assets/images/testimonials.svg
   icon_left: false
+  icon_right: true
 - title: Data Migration
   description: |-
     Share insights on how to build your data stack and advise on data stack architecture and partner connections
@@ -24,3 +25,4 @@ service_section:
       be able to call at any time.
     logo: assets/images/testimonials.svg
   icon_left: true
+  icon_right: false
