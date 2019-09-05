@@ -1,0 +1,14 @@
+---
+label: 'home welcome section '
+hide_body: true
+fields:
+- type: field_group_list
+  name: Welcome
+  label: Welcome
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: tagline
+    label: tagline
