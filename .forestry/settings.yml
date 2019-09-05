@@ -42,7 +42,7 @@ sections:
   path: _data/policy-links.yml
   label: Policy Links
 upload_dir: assets/images
-public_path: "/images"
+public_path: assets/images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
