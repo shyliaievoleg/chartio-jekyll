@@ -1,9 +1,9 @@
-{% assign services = site.data.home.services.service_section %}
+{% assign section = site.data.home.how-to-use %}
 
 <div class="page-section how-to-use">
     <div class="container">
         <div class="how-to-use__text">
-            <h2>Find out How Easy Chartio Is to use</h2>
+            <h2>{{ section.title }}</h2>
             <form action="#" class="email-form">
                 <input type="text" class="email-form__input" placeholder="Enter your contact email">
                 <button type="submit" class="btn btn--secondary email-form__submit">Get Started Free</button>
@@ -12,11 +12,10 @@
         <div class="how-to-use__video-holder">
             <div class="video">
                 <video autoplay="" muted="" loop="" class="hero-image" poster="/assets/images/img-video.png" style="opacity: 1;">
-                    <source src="/assets/images/explorer-moving.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" onload="loadVideo()">
+                    <source src="{{ section.video }}" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" onload="loadVideo()">
                 </video>
                 <a href="#" class="video__play-btn">Play</a>
             </div>
-
         </div>
     </div>
 </div>
