@@ -29,6 +29,9 @@ sections:
 - type: document
   path: _data/home/training.yml
   label: Onboarding and Training
+- type: document
+  path: _data/home/how-to-use.yml
+  label: How To Use
 - type: heading
   label: Other
 - type: jekyll-pages
