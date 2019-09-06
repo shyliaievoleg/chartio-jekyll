@@ -1,0 +1,16 @@
+---
+label: home how to use
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: video
+  type: file
+  config:
+    maxSize: 250
+  label: Video
+pages:
+- _data/home/how-to-use.yml
