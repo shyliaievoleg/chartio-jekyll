@@ -32,7 +32,6 @@ sections:
 - type: document
   path: _data/home/how-to-use.yml
   label: How To Use
-  match: "**/*"
 - type: heading
   label: Other
 - type: jekyll-pages
