@@ -264,9 +264,25 @@
 }
 
 .video {
-    background: url('../images/img-video-with-frame.png') no-repeat center center/cover;
-    padding: 0 0 56%;
+    padding: 0;
     width: 100%;
+    position: relative;
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('../images/video-frame.png') no-repeat center center;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
 }
 
 .video__play-btn {
