@@ -12,3 +12,5 @@ fields:
   config:
     maxSize: 250
   label: Video
+pages:
+- _data/home/how-to-use.yml
