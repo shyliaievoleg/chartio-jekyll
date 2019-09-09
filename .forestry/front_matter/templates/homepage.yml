@@ -9,6 +9,8 @@ fields:
   - home-welcome-section
   - what-we-do
   - home-services
+  - home-trainings
+  - home-how-to-use
   config:
     min: 
     max: 
