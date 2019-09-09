@@ -104,5 +104,3 @@ fields:
       label: Text
     label: Ongoing
   label: Timeline
-pages:
-- _data/home/training.yml

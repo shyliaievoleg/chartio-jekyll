@@ -16,23 +16,6 @@ sections:
   path: _data/footer-nav.yml
   label: Footer Nav
 - type: heading
-  label: Home Sections
-- type: document
-  path: _data/home/welcome.yml
-  label: Welcome
-- type: document
-  path: _data/home/what-we-do.yml
-  label: What can we do for you?
-- type: document
-  path: _data/home/services.yml
-  label: Services
-- type: document
-  path: _data/home/training.yml
-  label: Onboarding and Training
-- type: document
-  path: _data/home/how-to-use.yml
-  label: How To Use
-- type: heading
   label: Other
 - type: jekyll-pages
   label: Pages

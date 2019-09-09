@@ -36,5 +36,3 @@ fields:
       required: false
     label: Image Text Position
   label: Section Image
-pages:
-- _data/home/what-we-do.yml

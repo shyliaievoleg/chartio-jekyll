@@ -51,5 +51,3 @@ fields:
     max: 
     labelField: 
   label: Service Section
-pages:
-- _data/home/services.yml
