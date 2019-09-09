@@ -1,6 +1,6 @@
 ---
 label: homepage
-hide_body: false
+hide_body: true
 fields:
 - name: welcome
   type: include
