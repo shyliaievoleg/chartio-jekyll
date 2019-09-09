@@ -2,17 +2,6 @@
 layout: default
 ---
 
-<!-- Welcome Section -->
-{% include home/welcome.html %}
-
-<!-- What We Do Section -->
-{% include home/what-we-do.html %}
-
-<!-- Our Services Section -->
-{% include home/services.html %}
-
-<!-- Onboarding and Training Section -->
-{% include home/training.html %}
-
-<!-- How To Use Section -->
-{% include home/how-to-use.html %}
+{% for section in page.home_sections %}
+    {% include home/{{ section.block }}.html %}
+{% endfor %}
