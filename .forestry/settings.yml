@@ -55,11 +55,6 @@ public_path: assets/images
 front_matter_path: assets/images
 use_front_matter_path: false
 file_template: ":filename:"
-
-# items is hidden from menu
-- match: README.md
-  hidden: true
-
 build:
   preview_env:
   - JEKYLL_ENV=staging
