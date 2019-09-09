@@ -2,3 +2,5 @@
 label: about
 hide_body: false
 fields: []
+pages:
+- About.md
