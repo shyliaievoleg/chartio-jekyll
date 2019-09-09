@@ -9,3 +9,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- index.html
