@@ -1,14 +1,16 @@
 <div class="nav__holder">
-    <nav class="nav nav--primary">
+    <nav class="nav">
         <ul class="nav__list">
             {% for item in site.data.nav-primary.nav %}
                 <li class="nav__item {% if item.dropdown %}nav__item--dropdown{% endif %}">
                     <a href="{{ item.link }}" class="nav__link">{{ item.title }}</a>
-                    <ul class="subnav">
-                        {% for subitem in item.subnav %}
-                            <li class="subnav__item"><a href="{{ subitem.url }}" class="subnav__link">{{ subitem.title }}</a></li>
-                        {% endfor %}
-                    </ul>
+                    <nav class="subnav">
+                        <ul class="subnav__list">
+                            {% for subitem in item.subnav %}
+                                <li class="subnav__item"><a href="{{ subitem.url }}" class="subnav__link">{{ subitem.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
                 </li>
             {% endfor %}
         </ul>

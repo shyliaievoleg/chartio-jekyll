@@ -5,7 +5,6 @@ html {
 
 * {
     box-sizing: border-box;
-    position: relative;
 
     &:before, &:after {
         box-sizing: border-box;
@@ -22,6 +21,7 @@ h1, h2, h3, h1 a, h2 a, h3 a, legend {
     font-family: $font-family--serif;
     line-height: $line-height;
     font-weight: normal;
+    color: $h-color;
 }
 
 h1 {
@@ -37,9 +37,14 @@ h2 {
 }
 
 h3 {
-    margin: 50px 0 27px;
+    margin: 0 0 27px;
     font-size: $font-size--h3;
     line-height: $line-height-h;
+    color: $black;
+
+    &:not(:first-child) {
+        margin-top: 46px;
+    }
 }
 
 h4 {
@@ -51,8 +56,12 @@ h4 {
 }
 
 p {
-    margin: 0 0 1em;
+    margin: 0;
     line-height: $line-height;
+
+    &:not(:last-child) {
+        margin: 0 0 1em;
+    }
 }
 
 a {
@@ -174,8 +183,9 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .cols2, .cols3, .cols4, .cols5 {
@@ -214,18 +224,19 @@ body {
 }
 
 .logo {
-    margin: 5px 0 0 -13px;
+    margin: 2px 0 0 -11px;
+    display: flex;
 
     img {
-        width: 150px;
+        width: 160px;
     }
 
     &--footer {
-        margin: 5px 0 0 -9x;
         width: 25%;
+        margin-top: -8px;
 
         img {
-            width: 110px;
+            width: 121px;
         }
     }
 }
