@@ -1,4 +1,9 @@
 ---
 label: test4
 hide_body: true
-fields: []
+fields:
+- name: file_name
+  type: text
+  config:
+    required: false
+  label: file name
