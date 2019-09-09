@@ -36,5 +36,12 @@ fields:
       required: false
     label: Image Text Position
   label: Section Image
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: what-we-do
 pages:
 - _data/home/what-we-do.yml
