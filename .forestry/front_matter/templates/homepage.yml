@@ -15,4 +15,5 @@ fields:
     min: 
     max: 
 pages:
+- About.md
 - index.html
