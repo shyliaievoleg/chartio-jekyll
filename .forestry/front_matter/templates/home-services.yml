@@ -51,5 +51,12 @@ fields:
     max: 
     labelField: 
   label: Service Section
+- name: block
+  type: text
+  config:
+    required: false
+  label: block
+  hidden: true
+  default: services
 pages:
 - _data/home/services.yml
