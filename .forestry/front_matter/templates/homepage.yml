@@ -11,7 +11,7 @@ fields:
   - services
   - how-to-use
   - trainings
-  - home-something-very-long
+  - advanced-topics-data-governance-trainings
   config:
     min: 
     max: 
