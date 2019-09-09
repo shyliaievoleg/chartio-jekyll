@@ -1,6 +1,12 @@
 ---
 layout: homepage
 title: Home
+home_sections:
+- template: home-welcome-section
+  block: welcome
+  title: Welcome on Index
+  tagline: Welcome on Index
+
 ---
 {% for section in page.home_sections %}
     {% include home/{{ section.block }}.html %}
