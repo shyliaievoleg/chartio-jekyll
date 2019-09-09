@@ -1,6 +1,21 @@
 ---
 label: homepage
 hide_body: false
-fields: []
+fields:
+- name: welcome
+  type: include
+  config: {}
+  template: home-welcome-section
+  label: welcome
+- name: how_to_use
+  type: include
+  config: {}
+  template: home-how-to-use
+  label: how to use
+- name: services
+  type: include
+  config: {}
+  template: home-services
+  label: services
 pages:
 - index.html
