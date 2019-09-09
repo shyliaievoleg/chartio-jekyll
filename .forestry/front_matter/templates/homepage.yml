@@ -11,8 +11,6 @@ fields:
   - services
   - how-to-use
   - trainings
-  - advanced-topics-data-governance-trainings
-  - test4
   config:
     min: 
     max: 
