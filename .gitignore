@@ -1,4 +1,3 @@
-_site/
 # ignore composer vendor directory
 /vendor
 .bundle/
