@@ -11,6 +11,7 @@ fields:
   - services
   - how-to-use
   - trainings
+  - home-something-very-long
   config:
     min: 
     max: 
