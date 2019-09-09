@@ -1,6 +1,6 @@
 ---
 label: homepage
-hide_body: true
+hide_body: false
 fields: []
 pages:
 - index.html
