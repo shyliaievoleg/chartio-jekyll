@@ -2,10 +2,10 @@
 label: home something very long
 hide_body: true
 fields:
-- name: template
+- name: template_name
   type: text
   config:
     required: false
-  label: template
+  label: template name
   hidden: true
   default: long
