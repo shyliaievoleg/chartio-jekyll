@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Navigations
@@ -55,6 +55,11 @@ public_path: assets/images
 front_matter_path: assets/images
 use_front_matter_path: false
 file_template: ":filename:"
+
+# items is hidden from menu
+- path: README.md
+  hidden: true
+
 build:
   preview_env:
   - JEKYLL_ENV=staging
