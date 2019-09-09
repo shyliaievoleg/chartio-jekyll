@@ -1,8 +1,6 @@
-{% assign services = site.data.home.services.service_section %}
-
 <div class="page-section">
     <div class="container">
-        {% for service in services %}
+        {% for service in section.service_section %}
             <div class="content-item {% if service.icon_right %}content-item--image-right{% endif %}">
                 <div class="content-item__image">
                     <img class="content-item__image-element" src="{{ service.icon }}" alt="{{ service.title }}">

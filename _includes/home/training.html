@@ -1,11 +1,8 @@
-{% assign training = site.data.home.training %}
-{% assign timeline = site.data.home.training.timeline %}
-
 <div class="page-section training">
     <div class="container">
-        <h2 class="page-section__title">{{ training.title }}</h2>
+        <h2 class="page-section__title">{{ section.title }}</h2>
         <div class="cols2">
-            {% for card in training.training_cards %}
+            {% for card in section.training_cards %}
                 <div class="col content-item content-item--with-border">
                     <div class="content-item__image">
                         <img class="content-item__image-element" src="{{ card.icon }}" alt="Live Trainings Customized Specifically to You and Your Data">
@@ -18,7 +15,7 @@
         </div>
         <div class="training__table">
             <div class="cols4">
-                {% for col in training.training_table limit: 4 %}
+                {% for col in section.training_table limit: 4 %}
                     <div class="col content-box">
                         <div class="content-box__title">
                             <h3 class="content-box__title-element">{{ col.title }}</h3>
@@ -30,9 +27,9 @@
                 {% endfor %}
             </div>
             <div class="timeline">
-                <span class="timeline__item timeline__item--days" style="border-color: {{ timeline.days.border_color }}">{{ timeline.days.text }}</span>
-                <span class="timeline__item timeline__item--weeks" style="border-color: {{ timeline.weeks.border_color }}">{{ timeline.weeks.text }}</span>
-                <span class="timeline__item timeline__item--ongoing" style="border-color: {{ timeline.ongoing.border_color }}">{{ timeline.ongoing.text }}</span>
+                <span class="timeline__item timeline__item--days" style="border-color: {{ timeline.days.border_color }}">{{ section.timeline.days.text }}</span>
+                <span class="timeline__item timeline__item--weeks" style="border-color: {{ timeline.weeks.border_color }}">{{ section.timeline.weeks.text }}</span>
+                <span class="timeline__item timeline__item--ongoing" style="border-color: {{ timeline.ongoing.border_color }}">{{ section.timeline.ongoing.text }}</span>
             </div>
         </div>
     </div>
