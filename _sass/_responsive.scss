@@ -12,7 +12,7 @@
 
     h3 {
         margin: 30px 0 15px;
-        font-size: 18px;
+        font-size: 21px;
     }
 
     h4 {
@@ -39,7 +39,7 @@
         padding: 12px 0;
 
         .logo {
-            width: 92px;
+            width: 122px;
 
             img {
                 width: 100%;
@@ -51,7 +51,8 @@
         }
 
         .nav__toggle {
-            display: block;
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -62,6 +63,7 @@
 
     .welcome {
         padding: 40px 0;
+        height: auto;
     }
 
     .welcome-tagline {
@@ -75,11 +77,16 @@
     .what-we-do__description {
         width: 100%;
         order: 2;
+        padding: 0;
     }
 
     .what-we-do__image {
         width: 100%;
         padding: 18px 20px;
+        position: relative;
+        top: auto;
+        left: auto;
+        bottom: auto;
     }
 
     .what-we-do__image-caption {
@@ -101,10 +108,6 @@
         padding: 0 20px;
     }
 
-    .content-item__image-element {
-        max-width: 330px;
-    }
-
     .content-item__text {
         width: 100%;
 
@@ -113,6 +116,9 @@
         }
     }
 
+    .testimonial-item {
+        margin: 0 0 50px;
+    }
 
     .testimonial-item__text {
         width: 100%;
@@ -128,6 +134,7 @@
 
     .testimonial-item__image-element {
         max-width: 400px;
+        max-height: 200px;
     }
 
     .testimonial-item__text blockquote {
@@ -154,9 +161,14 @@
     .training__table {
         display: flex;
         justify-content: flex-end;
+        position: relative;
 
         .cols4 {
             width: calc(100% - 80px);
+        }
+
+        .content-box + .content-box {
+            border-left: 1px solid $gray-lighter;
         }
 
         .content-box__title {
