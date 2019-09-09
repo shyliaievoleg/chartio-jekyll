@@ -6,11 +6,11 @@ fields:
   type: blocks
   label: home sections
   template_types:
-  - home-welcome-section
+  - welcome
   - what-we-do
-  - home-services
-  - home-trainings
-  - home-how-to-use
+  - services
+  - how-to-use
+  - trainings
   config:
     min: 
     max: 
