@@ -1,3 +1,10 @@
+---
+menu:
+  header:
+    weight: 2
+    title: readme
+
+---
 # Chartio
 
 Generate site with Jekyll site generator and connect it to Forestry CMS.
