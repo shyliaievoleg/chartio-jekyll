@@ -1,9 +1,4 @@
 ---
-menu:
-  header:
-    weight: 3
-    title: readme
-    identifier: item_YncYGuD
 
 ---
 # Chartio
