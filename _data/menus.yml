@@ -9,3 +9,8 @@ header:
   title: API Documentation
   identifier: api
   weight: 2
+policy:
+  - title: Terms of Service
+    link: #
+  - title: Privacy Policy
+    link: #
