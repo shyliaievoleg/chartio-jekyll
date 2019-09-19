@@ -1,4 +1,7 @@
+---
 - title: AICPA
   path: assets/images/certificate-aicpa.png
+  logo: assets/images/certificate-aicpa.png
 - title: SOC 2
-  path: assets/images/certificate-soc2.png
+  path: ''
+  logo: assets/images/certificate-soc2.png
