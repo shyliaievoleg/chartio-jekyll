@@ -9,7 +9,6 @@ sections:
 - type: document
   path: _data/header/logo.yml
   label: Header Logo
-  match: "**/*"
 - type: document
   path: _data/nav-primary.yml
   label: Header Primary Nav
