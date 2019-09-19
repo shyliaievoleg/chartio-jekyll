@@ -12,3 +12,5 @@ fields:
   config:
     required: false
   label: Image Title
+pages:
+- _data/header/logo.yml
