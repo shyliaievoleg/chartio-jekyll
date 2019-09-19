@@ -7,36 +7,51 @@
     &__input {
         background: $white;
         width: 55%;
+        height: 56px;
         border: none;
-        padding: 0 10px;
-        border-radius: 0 4px 4px 0;
+        padding: 0 10px 0 14px;
+        border-radius: 4px;
+        outline: none;
+        position: relative;
+        right: -4px;
+        border: 1px solid $white;
+
+        &:focus {
+            border: 1px solid $btn-bg-secondary;
+        }
     }
 
     &__submit {
         width: 45%;
         height: 56px;
-        border-radius: 0 4px 4px 0;
+        border-radius: 4px;
         padding: 0 25px;
         font-size: 1.1rem;
+        border: 1px solid $btn-bg-secondary;
+        position: relative;
+        z-index: 1;
     }
 
     &--sign-up {
-        background: $gray-lightest;
         height: 38px;
-        border: 2px solid $btn-bg-secondary;
         border-radius: $border-radius;
 
         .email-form__input {
             border-radius: 4px 0 0 4px;
             background: $gray-lightest;
-            height: 34px;
-            width: 150px;
+            border: 1px solid $gray-lightest;
+            height: 38px;
+            width: 154px;
+
+            &:focus {
+                border: 1px solid $btn-bg-secondary;
+            }
         }
 
         .email-form__submit {
             width: auto;
-            border-radius: 4px 0 0 4px;
-            height: 34px;
+            border-radius: 4px;
+            height: 38px;
             padding: 0 13px 2px;
         }
     }

@@ -61,7 +61,8 @@
     left: 0;
     top: 100px;
     list-style: none;
-    box-shadow: 0 8px 10px 5px rgba(0, 0, 0, 0.05);
+    border-top: 1px solid $gray-lighter;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.05);
     z-index: 10;
     height: 92px;
     display: flex;
