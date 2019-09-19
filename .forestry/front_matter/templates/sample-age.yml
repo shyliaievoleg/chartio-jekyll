@@ -12,18 +12,5 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: layout
-  type: select
-  default: ''
-  config:
-    required: false
-    options:
-    - sample-page
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Layout
 pages:
 - about.md
