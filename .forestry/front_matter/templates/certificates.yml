@@ -1,0 +1,14 @@
+---
+label: certificates
+hide_body: true
+fields:
+- type: field_group_list
+  name: Certificates
+  label: Certificates
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: path
+    label: path
