@@ -12,5 +12,12 @@ fields:
   config:
     required: false
   label: Subtitle
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: sample-page
+  hidden: true
 pages:
 - about.md
