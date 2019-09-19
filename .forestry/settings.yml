@@ -21,6 +21,10 @@ sections:
   path: _data/certificates.yml
   label: Certificates
 - type: document
+  path: _data/footer-btns.yml
+  label: Footer Buttons
+  match: "**/*"
+- type: document
   path: _data/policy-links.yml
   label: Policy Links
 - type: directory
