@@ -224,6 +224,8 @@
     .how-to-use__video-holder {
         width: 100%;
         right: 0;
+        max-width: 720px;
+        margin: 0 auto;
     }
 
     .email-form {
@@ -301,6 +303,25 @@
         }
 
         .social-links {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    .video {
+        padding: 20px;
+
+        &__play-btn {
+            width: 160px;
+            height: 160px;
+            background-position: center center;
+            background-size: contain;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &:after {
             display: none;
         }
     }

@@ -295,7 +295,7 @@
 }
 
 .video {
-    padding: 51px 56px 0 92px;
+    padding: 18px 64px 20px 97px;
     width: 100%;
     position: relative;
 
@@ -305,7 +305,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        background: url('../images/video-frame.png') no-repeat center center;
+        background: url('../images/video-frame.png') no-repeat center center/cover;
         width: 100%;
         height: 100%;
     }
