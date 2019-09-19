@@ -1,7 +1,13 @@
 <header class="header">
     <div class="header-top">
         <div class="container">
-            <a href="/" class="logo"><img src="assets/images/chartio-logo-black-tbg.svg" alt="Chartio"></a>
+
+            <!-- Logo -->
+            {% assign logo = site.data.header.logo %}
+            {% if logo %}
+                <a href="/" class="logo"><img src="{{ logo.image }}" alt="{{ logo.image_title }}"></a>
+            {% endif %}
+
             <!-- Primary Navigation -->
             {% include nav-primary.html %}
 
