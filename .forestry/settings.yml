@@ -5,13 +5,30 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Navigations
+  label: Header
+- type: document
+  path: _data/header/logo.yml
+  label: Header Logo
+  match: "**/*"
 - type: document
   path: _data/nav-primary.yml
   label: Header Primary Nav
+- type: heading
+  label: Footer
 - type: document
   path: _data/footer-nav.yml
   label: Footer Nav
+- type: document
+  path: _data/certificates.yml
+  label: Certificates
+- type: document
+  path: _data/policy-links.yml
+  label: Policy Links
+- type: directory
+  path: _social-links
+  label: Social Links
+  create: all
+  match: "**/*"
 - type: heading
   label: Pages
 - type: jekyll-pages
@@ -19,17 +36,6 @@ sections:
   create: all
 - type: heading
   label: Other
-- type: directory
-  path: _social-links
-  label: Social Links
-  create: all
-  match: "**/*"
-- type: document
-  path: _data/policy-links.yml
-  label: Policy Links
-- type: document
-  path: _data/certificates.yml
-  label: Certificates
 upload_dir: assets/images
 public_path: assets/images
 front_matter_path: assets/images
