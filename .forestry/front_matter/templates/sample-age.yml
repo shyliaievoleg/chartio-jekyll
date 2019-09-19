@@ -12,14 +12,5 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Text
 pages:
 - about.md
