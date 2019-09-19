@@ -9,6 +9,8 @@ fields:
   - type: text
     name: title
     label: title
-  - type: file
-    name: logo
-    label: Logo
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
