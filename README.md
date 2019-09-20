@@ -3,18 +3,24 @@
 ---
 # About
 
-This Jekyll demo with Netlify CMS for basic editing content via web interface.
+This Chartio theme Jekyll demo site with Netlify CMS for basic editing content via web interface.
 You can check live version here [https://chartio-jekyll.netlify.com](https://chartio-jekyll.netlify.com)
 
 
 # Getting started
 
 This project requires that [Ruby and Jekyll be installed](https://jekyllrb.com/docs/installation/).
+Clone repository:
+
+- HTTP `git clone https://github.com/shyliaievoleg/chartio-jekyll.git .` or
+- SSH `git clone git@github.com:shyliaievoleg/chartio-jekyll.git .` into your project folder.
+
 If its your first time run `gem install jekyll bundler` to install both Jekyll and Bundler locally.
 
 After cloning the project
 
 - run `bundle install` to install gem dependencies
+- run `jekyll serve` to to start dev server on http://localhost:4000/
 
 ## CSS and JS and Images
 
