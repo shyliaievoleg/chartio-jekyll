@@ -7,3 +7,7 @@ collections:
       - twitter.md
       - facebook.md
       - youtube.md
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
