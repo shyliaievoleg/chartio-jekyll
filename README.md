@@ -10,7 +10,7 @@ You can check live version here [https://chartio-jekyll.netlify.com](https://cha
 # Getting started
 
 This project requires that [Ruby and Jekyll be installed](https://jekyllrb.com/docs/installation/).
-<<<<<<< HEAD
+
 Clone repository:
 
 - HTTP `git clone https://github.com/shyliaievoleg/chartio-jekyll.git .` or
@@ -21,7 +21,7 @@ If its your first time run `gem install jekyll bundler` to install both Jekyll a
 After cloning the project
 
 - run `bundle install` to install gem dependencies
-- run `jekyll serve` to to start dev server on http://localhost:4000/
+- run `jekyll serve` to start dev server on http://localhost:4000/
 
 ## CSS and JS and Images
 
