@@ -15,10 +15,6 @@ Clone repository:
 
 - HTTP `git clone https://github.com/shyliaievoleg/chartio-jekyll.git .` or
 - SSH `git clone git@github.com:shyliaievoleg/chartio-jekyll.git .` into your project folder.
-=======
-Clone repository HTTP `git clone https://github.com/shyliaievoleg/chartio-jekyll.git .` or
-SSh `git clone git@github.com:shyliaievoleg/chartio-jekyll.git .` into your project folder.
->>>>>>> 8cdac4a13106ec495439d19fb923ec19d425fac5
 
 If its your first time run `gem install jekyll bundler` to install both Jekyll and Bundler locally.
 
