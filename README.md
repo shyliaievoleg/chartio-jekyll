@@ -3,7 +3,7 @@
 ---
 # About
 
-This Chartio theme Jekyll demo site with Netlify CMS for basic editing content via web interface.
+This Chartio theme Jekyll demo site with Forestry CMS for basic editing content via web interface.
 You can check live version here [https://chartio-jekyll.netlify.com](https://chartio-jekyll.netlify.com)
 
 
@@ -27,13 +27,12 @@ After cloning the project
 
 The theme and JS files and images are located in the `/assets/css` and `/assets/js` and `/assets/images` folders.
 
-## Netlify CMS Integration
+## Forestry CMS Integration
 
-The Netlify CMS edits the YAML files in `_data/*` along with the `_posts` folder for the sites News. By allowing the Netlify CMS to edit mainly the `_data` files, you are free to use complex markup on the rest of the site pages (more than markdown provides), and to pull in Netlify CMS managed content you simply tell Jekyll to output {{ site.data.home.title }} which coresponds to the `_data/home.yml` to access the Netlify CMS managed YAMl data.
+[Forestry.io](https://forestry.io) is a Git-backed CMS (content management system) for websites and web products built using static site generators. Forestry bridges the gap between developers and their teams, by making development fun and easy, while providing powerful content management for their teams.
+To add your repository to forestry check this [page](https://forestry.io/docs/quickstart/setup-site/)
 
-Each _.html page will need a corresponding _.yml file that the Netlify CMS will edit. So you can control exactly what the client can edit.
-
-You can have Netlify CMS save content as Markdown, and have Jekyll process it into html using the markdownify [Liquid filter](https://jekyllrb.com/docs/liquid/filters/) ex. {{ site.data.home.intro-body | markdownify }}
+After adding your repository to Forestry you can create and edit content via CMS.
 
 ## Directories Explained
 
@@ -43,5 +42,4 @@ This is a quick overview of this projects directories, and how they are used.
 - **\_includes** [Reuseable components/partials](https://jekyllrb.com/docs/includes/) that are used across multiple pages
 - **\_layouts** Default [Jekyll layouts](https://jekyllrb.com/docs/step-by-step/04-layouts/)
 - **\_posts** Defautl Jekyll [Posts/News](https://jekyllrb.com/docs/posts/) articles configued to be edited by Netlify CMS
-- **admin** [Netlify CMS configuration](https://www.netlifycms.org/docs/add-to-your-site/)
-- **assets** SCSS/JS/media files mainly related to the Theme, processed by Gulp.js
+- **.forestry** [Forestry CMS configuration](https://forestry.io/docs/quickstart/setup-site/)
